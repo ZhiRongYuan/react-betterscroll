@@ -26,8 +26,6 @@ BetterScroll 也是一样的原理，我们可以用一张图更直观的感受�
 | hasMore | 是否还有更多数据（判断上拉是否还需要加载分页数据） | Boolean | | true |
 | probeType | 派发 scroll 事件的条件 | Number | 1、2、3 | 1 |
 | click | better-scroll 会派发一个 click 事件 | Boolean | | true |
-| listenScroll | 是否监听滚动，开启后才能派发 scroll 事件 | Boolean | | false |
-| listenBeforeScroll | 是否监听滚动之前，开启后才能派发 before-scroll-start 事件 | Boolean | | false |
 | scrollbar | 这个配置可以开启滚动条。当设置为 true 或者是一个 Object 的时候，都会开启滚动条，默认是会 fade 的 | Boolean or Object | {fade: true}, | false |
 | pullDownRefresh | 这个配置用于做下拉刷新功能。当设置为 true 或者是一个 Object 的时候，可以开启下拉刷新，可以配置顶部下拉的距离（threshold） 来决定刷新时机以及回弹停留的距离（stop） | Boolean or Object | {threshold: 90,stop: 40}, | false |
 | pullUpLoad | 这个配置用于做上拉加载功能。当设置为 true 或者是一个 Object 的时候，可以开启上拉加载，可以配置离底部距离阈值（threshold）来决定开始加载的时机 | Boolean or Object | { threshold: 0, txt: { more: '加载更多',noMore:'没有更多数据了'} } | false |
